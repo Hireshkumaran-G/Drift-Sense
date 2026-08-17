@@ -1,0 +1,43 @@
+Drift-Sense Localizer Evaluation Summary
+==========================================
+
+Noise level : low
+  Samples   : 40
+  AP        : 0.7370
+  Accuracy  : 0.8500
+  RMSE      : 40.9945 px
+  Median err: 0.3125 px
+  @1px/@3px/@5px : 0.8500 / 0.8500 / 0.8500
+  Latency   : 923.3 ms/pair
+  Boundary  : nan  Interior: 0.8500
+
+Noise level : medium
+  Samples   : 40
+  AP        : 0.4929
+  Accuracy  : 0.6250
+  RMSE      : 225.3237 px
+  Median err: 1.2852 px
+  @1px/@3px/@5px : 0.3500 / 0.6250 / 0.6250
+  Latency   : 927.4 ms/pair
+  Boundary  : nan  Interior: 0.6250
+
+Noise level : high
+  Samples   : 40
+  AP        : 0.1768
+  Accuracy  : 0.3750
+  RMSE      : 216.9940 px
+  Median err: 36.7197 px
+  @1px/@3px/@5px : 0.2000 / 0.3750 / 0.3750
+  Latency   : 907.4 ms/pair
+  Boundary  : nan  Interior: 0.3750
+
+Noise level : severe
+  Samples   : 40
+  AP        : 0.0794
+  Accuracy  : 0.2000
+  RMSE      : 350.1225 px
+  Median err: 103.3745 px
+  @1px/@3px/@5px : 0.0000 / 0.1750 / 0.2000
+  Latency   : 963.9 ms/pair
+  Boundary  : nan  Interior: 0.2000
+

@@ -1,0 +1,15 @@
+# Drift-Sense: Navigation-Error Recovery
+# Applied Materials Hackathon 2026
+#
+# Install: pip install -r requirements.txt
+# Tested on Python 3.11 (CPU only, no GPU required)
+
+numpy>=1.24,<2.0
+opencv-python-headless>=4.8,<5.0
+Pillow>=10.0
+matplotlib>=3.7
+pytest>=7.4
+
+# Streamlit is used only by app.py (optional interactive demo).
+# Not required by localize.py, dataset_generator.py, or evaluate_improved.py.
+# streamlit>=1.28
