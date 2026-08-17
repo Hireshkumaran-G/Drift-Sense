@@ -1,6 +1,6 @@
 # Drift-Sense: Navigation-Error Recovery
 
-**Applied Materials Hackathon 2026 — SEMICON India — Problem Statement 01**
+**Applied Materials Hackathon 2026 — SEMICON India — Problem Statement 02**
 
 ---
 
