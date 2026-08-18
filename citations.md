@@ -27,9 +27,10 @@ choices informed by, but not directly mandated by, the cited literature.
 
 **[2] US Patent US7349232B2 — 6F² DRAM Cell Design**
 - United States Patent, granted 2008
-- Describes 6F² DRAM cell architecture with 3F-pitch folded digitline sense
-  amplifier, word lines, active areas, and storage-node layout in a
-  90° orthogonal (Manhattan geometry) array.
+- Describes 6F² DRAM cell architecture with a 3F-pitch folded digitline
+  sense amplifier, word lines, active areas, and storage-node layout.
+- The patent uses angled active areas rather than strict 90° Manhattan
+  geometry; the simulator uses a simplified orthogonal representation.
 - Used to justify: all DRAM presets in `src/presets.py` — specifically the
   6F² cell geometry (word-line pitch = 2F, bit-line pitch = 3F) and
   orthogonal Manhattan layout constraint.
@@ -91,7 +92,7 @@ choices informed by, but not directly mandated by, the cited literature.
 
 **[7] Applied Materials / KLA — Semiconductor Wafer Metrology and Alignment**
 - Brill, B. et al., KLA-Tencor Technologies Corporation
-- US Patent US7561282B2 — "Techniques for determining overlay and critical
+- US Patent US7561282B1 — "Techniques for determining overlay and critical
   dimension using a single metrology tool"
 - Provides industrial context for multi-scale image registration and
   pattern alignment in semiconductor wafer inspection tools.
